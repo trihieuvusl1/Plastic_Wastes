@@ -1,7 +1,6 @@
 # Plastic Waste is Our Global Problem
 ### A Statistical Case Study on Policy Impact and Behavioral Change
 
-**Author:** Tri Hieu Vu (Student ID: 139663)  
 **Context:** Case study prepared for UNEP environmental data analysis  
 **Tools:** Microsoft Excel  
 **Data:** ~212 survey respondents per country, 848 total observations  
