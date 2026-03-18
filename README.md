@@ -1,9 +1,9 @@
 # Plastic Waste is Our Global Problem
 ### A Statistical Case Study on Policy Impact and Behavioral Change
 
-Context: Case study prepared for UNEP environmental data analysis
-Tools: Python (matplotlib, scipy, numpy), Microsoft Excel
-Data: 212 survey respondents per country, 848 total observations
+**Context**: Case study prepared for UNEP environmental data analysis
+**Tools**: Python (matplotlib, scipy, numpy), Microsoft Excel
+**Data**: 212 survey respondents per country, 848 total observations
 
 ## Why Do We Care About Plastic Waste?
 
@@ -30,19 +30,19 @@ Sample size: approximately 212 individuals per country (848 total). Data is stor
 
 The analysis follows five steps, each building on the previous one.
 
-**Step 1 — Descriptive Statistics**
+**Step 1: Descriptive Statistics**
 Calculate basic metrics to understand the data: mean (a person's "typical" level of waste), median (the value in the middle if the entire data is sorted from low to high), standard deviation (how the data is scattered around the mean), coefficient of variation (the ratio between standard deviation and mean), and skewness (which side the data is skewed toward). The purpose is to compare A and B to see if there are any early signs that A discharges more.
 
-**Step 2 — 98% Confidence Interval for Country A**
+**Step 2: 98% Confidence Interval for Country A**
 We cannot survey the entire population, but we can estimate a range in which the real value is almost certainly there. If the averages of other countries fall outside this range, then there is a basis to show that Country A is significantly different.
 
-**Step 3 — ANOVA Test across all four countries**
+**Step 3: ANOVA Test across all four countries**
 Used to test whether at least one of the four countries has markedly different levels of littering. If that is the case, we then continue to specifically examine how Country A differs from each other country.
 
-**Step 4 — Z-Test comparing Country A and Country B**
+**Step 4: Z-Test comparing Country A and Country B**
 Test the hypothesis: does Country A really litter more than Country B? This step determines whether the discrepancy is reliable or just luck from random data.
 
-**Step 5 — Correlation Between Awareness and Littering Behavior**
+**Step 5: Correlation Between Awareness and Littering Behavior**
 Check whether people who participate in many awareness-raising activities litter less. If there is a reverse relationship where more participation leads to less discharge, then community education can be considered an effective solution.
 
 ## Key Findings
@@ -164,18 +164,14 @@ The analyses in this report provided clear quantitative evidence of the plastic 
 ```
 plastic-waste-analysis/
     README.md
-    data/
-        raw_data.xlsx
-    analysis/
-        statistical_analysis.xlsx
+    data_analysis/
+        139663_Vu.xls
     report/
-        case_study.pdf
+        139663_Vu.pdf
     images/
         chart1_mean_ci.png
         chart2_boxplot.png
         chart3_correlation.png
-    src/
-        generate_charts.py
 ```
 
 ## References
